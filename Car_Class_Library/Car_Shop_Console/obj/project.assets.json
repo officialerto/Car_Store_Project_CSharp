@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Car_Class_Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Car_Class_Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Car_Class_Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Car_Class_Library/1.0.0": {
+      "type": "project",
+      "path": "../Car_Class_Library/Car_Class_Library.csproj",
+      "msbuildProject": "../Car_Class_Library/Car_Class_Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Car_Class_Library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ertugrul\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ertugrul\\source\\repos\\Car_Class_Library\\Car_Shop_Console\\Car_Shop_Console.csproj",
+      "projectName": "Car_Shop_Console",
+      "projectPath": "C:\\Users\\Ertugrul\\source\\repos\\Car_Class_Library\\Car_Shop_Console\\Car_Shop_Console.csproj",
+      "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ertugrul\\source\\repos\\Car_Class_Library\\Car_Shop_Console\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Ertugrul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Ertugrul\\source\\repos\\Car_Class_Library\\Car_Class_Library\\Car_Class_Library.csproj": {
+              "projectPath": "C:\\Users\\Ertugrul\\source\\repos\\Car_Class_Library\\Car_Class_Library\\Car_Class_Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

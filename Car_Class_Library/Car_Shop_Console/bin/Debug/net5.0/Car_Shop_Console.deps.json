@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Car_Shop_Console/1.0.0": {
+        "dependencies": {
+          "Car_Class_Library": "1.0.0"
+        },
+        "runtime": {
+          "Car_Shop_Console.dll": {}
+        }
+      },
+      "Car_Class_Library/1.0.0": {
+        "runtime": {
+          "Car_Class_Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Car_Shop_Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Car_Class_Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
