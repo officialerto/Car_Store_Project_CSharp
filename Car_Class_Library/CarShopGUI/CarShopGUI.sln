@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarShopGUI", "CarShopGUI\CarShopGUI.csproj", "{C6C1E295-940B-43CC-9564-8C3171771B5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Car_Class_Library", "..\Car_Class_Library2\Car_Class_Library.csproj", "{B6D00F67-2762-4593-8B5B-DCD389385F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C1E295-940B-43CC-9564-8C3171771B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C1E295-940B-43CC-9564-8C3171771B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C1E295-940B-43CC-9564-8C3171771B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C1E295-940B-43CC-9564-8C3171771B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D00F67-2762-4593-8B5B-DCD389385F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D00F67-2762-4593-8B5B-DCD389385F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D00F67-2762-4593-8B5B-DCD389385F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D00F67-2762-4593-8B5B-DCD389385F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B71D0311-A9F4-4492-96C8-710FED1883AE}
+	EndGlobalSection
+EndGlobal
